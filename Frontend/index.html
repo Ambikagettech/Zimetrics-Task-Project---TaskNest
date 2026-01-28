@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 class="project-title">TaskNest</h1>
+
+  <div class="cards-wrapper">
+
+    <!-- ADD TASK CARD -->
+    <div class="task-card">
+      <h2>Create New  Task</h2>
+      <input type="text" id="taskInput" placeholder="Enter your study task here..." />
+
+      <div class="task-actions">
+        <select id="category">
+          <option value="Study">Study</option>
+          <option value="Homework">Homework</option>
+          <option value="Project">Project</option>
+        </select>
+
+        <input type="date" id="dueDate" />
+      </div>
+
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <!-- TASK LIST CARD -->
+    <div class="task-list-card">
+      <h2>Your Tasks List</h2>
+      <ul id="taskList"></ul>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

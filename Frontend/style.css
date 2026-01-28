@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e0e0e0;
+}
+
+/* Title */
+.project-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #a78bfa;
+  margin: 30px 0;
+}
+
+/* Wrapper for side by side cards */
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* Left card */
+.task-card {
+  background-color: #1e1e2f;
+  padding: 20px;
+  border-radius: 12px;
+  width: 420px;
+  box-shadow: 0 0 25px rgba(139,92,246,0.4);
+}
+
+/* Right card */
+.task-list-card {
+  background: linear-gradient(90deg, #6c63ff, #8f80ff);
+  padding: 20px;
+  border-radius: 12px;
+  width: 420px;
+  box-shadow: 0 0 25px rgba(139,92,246,0.4);
+}
+
+.task-card h2,
+.task-list-card h2 {
+  margin-top: 0;
+  color: #d0d0ff;
+}
+
+/* Inputs */
+input[type="text"],
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  background-color: #020617;
+  color: #fff;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #a855f7, #3b82f6);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Select + date row */
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions select,
+.task-actions input[type="date"] {
+  flex: 1;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #2a2a3c;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
