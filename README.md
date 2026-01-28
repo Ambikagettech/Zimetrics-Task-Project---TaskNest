@@ -32,3 +32,9 @@ Home screen with neon UI
 Create New Task card
 Task list displayed side by side
 Tasks added dynamically
+
+5. Future Improvements
+Add Delete Options
+Show Status of Task Like pending completed
+Store History of tasks in database
+
