@@ -1,4 +1,4 @@
-📝 TaskNest – Student Task Manager
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/6ae1feba-ce66-449d-bbba-9dfaee4d20c5" />📝 TaskNest – Student Task Manager
 1. Project Title & Goal
 
 TaskNest – Student Task Manager is a web-based application that allows users to add, view, and manage their daily academic tasks through a clean neon-themed user interface with a simple backend for data handling.
@@ -26,15 +26,18 @@ What was the hardest bug you faced, and how did you fix it?
 The hardest bug I encountered was a SyntaxError: Unexpected end of JSON input while reading the tasks.json file in the backend. This happened because the JSON file was either empty or not properly formatted. I fixed it by ensuring the file always contains a valid JSON array ([]) initially and by adding proper error handling while parsing the JSON data in the server code.
 
 4. Output Screenshots
-
 Screenshots are attached in Proof screshoot folder of my project
 Home screen with neon UI
 Create New Task card
 Task list displayed side by side
 Tasks added dynamically
+[Uploading image.png…](C:\Users\HP\OneDrive\Desktop\Zimetrics Task 2 Project\Proof Screenshot\Prrof1\Screenshot 2026-01-28 122711.png)
 
-5. Future Improvements
+
+6. Future Improvements
 Add Delete Options
 Show Status of Task Like pending completed
 Store History of tasks in database
+
+
 
